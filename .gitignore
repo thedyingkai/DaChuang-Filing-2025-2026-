@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Large / local archives
+*.rar
+*.zip
+
+# Java / Maven / IDE (monorepo + subproject)
+target/
+.mvn/wrapper/maven-wrapper.jar
+.idea/
+*.iml
+
+# Frontend
+node_modules/
+dist/
+
+# Local secrets / certs
+*.pfx
+*.pem
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 本地/脚本/导出：按约定不纳入版本库（见项目约定）
+party-building-system/docs/
+party-building-system/sql/
+party-building-system/scripts/
+.db/
+.cursor/
+files/
+init_sqls/
+
+# properties files
+*.properties
+party-building-system/certs/server.crt
+party-building-system/certs/server.key
